@@ -1,7 +1,6 @@
 # check if an array contains a duplicate
 def containsDuplicate(array):
     hashset=set()
-    
     for nums in array:
         if nums in hashset:
             return True
