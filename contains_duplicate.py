@@ -7,6 +7,7 @@ def containsDuplicate(array):
         hashset.add(nums)
     return False
 
+
 print(containsDuplicate([1,1,2,3]))
 print(containsDuplicate([1,4,2,3]))
         
